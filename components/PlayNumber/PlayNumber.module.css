@@ -1,0 +1,32 @@
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus,
+.number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.number.available {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.number.used {
+  background-color: lightgreen;
+}
+
+.number.wrong {
+  background-color: lightcoral;
+}
+
+.number.candidate {
+  background-color: deepskyblue;
+  cursor: pointer;
+}

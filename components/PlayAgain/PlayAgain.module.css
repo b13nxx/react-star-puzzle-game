@@ -1,0 +1,18 @@
+.game-done .message {
+  font-size: 200%;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.game-done .message.won {
+  color: green;
+}
+
+.game-done .message.lost {
+  color: red;
+}
+
+.game-done .restart-button {
+  padding: 10px;
+  cursor: pointer;
+}

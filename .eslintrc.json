@@ -1,0 +1,93 @@
+{
+  "extends": [
+    "standard-with-typescript",
+    "standard-jsx",
+    "standard-react",
+    "plugin:react/jsx-runtime"
+  ],
+  "plugins": ["newline-destructuring"],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "no-useless-concat": "error",
+    "object-curly-newline": [
+      "error",
+      {
+        "consistent": true,
+        "multiline": true,
+        "minProperties": 2
+      }
+    ],
+    "object-property-newline": [
+      "error",
+      {
+        "allowAllPropertiesOnSameLine": false
+      }
+    ],
+    "indent": ["error", 2],
+    "max-len": ["error", 80],
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "react/jsx-indent": [
+      "error",
+      2,
+      {
+        "checkAttributes": true,
+        "indentLogicalExpressions": true
+      }
+    ],
+    "react/jsx-indent-props": ["error", 2],
+    "react/jsx-curly-newline": [
+      "error",
+      {
+        "multiline": "require",
+        "singleline": "forbid"
+      }
+    ],
+    "react/jsx-curly-spacing": [
+      "error",
+      {
+        "when": "always"
+      }
+    ],
+    "react/jsx-first-prop-new-line": ["error", "always"],
+    "react/jsx-max-props-per-line": [
+      "error",
+      {
+        "maximum": 1
+      }
+    ],
+    "react/jsx-closing-bracket-location": ["error", "after-props"],
+    "react/jsx-one-expression-per-line": "error",
+    "react/no-multi-comp": "error",
+    "react/void-dom-elements-no-children": "error",
+    "react/no-unstable-nested-components": "error",
+    "react/style-prop-object": "error",
+    "react/destructuring-assignment": "error",
+    "react/jsx-child-element-spacing": "error",
+    "react/jsx-key": "error",
+    "newline-destructuring/newline": [
+      "error",
+      {
+        "items": 1,
+        "itemsWithRest": 1,
+        "maxLength": 80
+      }
+    ]
+  }
+}
