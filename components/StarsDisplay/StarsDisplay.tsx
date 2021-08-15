@@ -1,6 +1,6 @@
 import React from 'react'
 import PlayStar from '../PlayStar/PlayStar'
-import utils from '../utils'
+import utils from '../../utils/utils'
 
 export interface StarsDisplayProps {
   stars: number

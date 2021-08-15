@@ -1,4 +1,4 @@
-import utils from '../utils'
+import utils from '../../utils/utils'
 import PlayNumber from '../PlayNumber/PlayNumber'
 import useNumbersDisplayState, {
   NumbersDisplayStateProps,

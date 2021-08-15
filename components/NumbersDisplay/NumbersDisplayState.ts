@@ -2,7 +2,7 @@ import {
   Dispatch, SetStateAction, useState
 } from 'react'
 import { GameStatus } from '../Game/Game'
-import utils from '../utils'
+import utils from '../../utils/utils'
 
 let candidateNums: number[],
   setCandidateNums: Dispatch<SetStateAction<number[]>>,

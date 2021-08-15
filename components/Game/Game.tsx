@@ -1,7 +1,7 @@
 import React, {
   useEffect, useState
 } from 'react'
-import utils from '../utils'
+import utils from '../../utils/utils'
 import NumbersDisplay from '../NumbersDisplay/NumbersDisplay'
 import PlayAgain from '../PlayAgain/PlayAgain'
 import StarsDisplay from '../StarsDisplay/StarsDisplay'
